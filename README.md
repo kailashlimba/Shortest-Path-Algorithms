@@ -10,8 +10,9 @@ There is no need to pass a vertex again, because the shortest path to all other 
 
 Algorithm Steps:
 
-The outer loop traverses from  : .
-Loop over all edges, check if the next node distance > current node distance + edge weight, in this case update the next node distance to "current node distance + edge weight".
+1. The outer loop traverses from  : .
+2. Loop over all edges, check if the next node distance > current node distance + edge weight, in this case update the next node distance      to "current node distance + edge weight".
+
 This algorithm depends on the relaxation principle where the shortest distance for all vertices is gradually replaced by more accurate values until eventually reaching the optimum solution. In the beginning all vertices have a distance of "Infinity", but only the distance of the source vertex = , then update all the connected vertices with the new distances (source vertex distance + edge weights), then apply the same concept for the new vertices with new distances and so on.
 Time Complexity of Bellman Ford algorithm is relatively high O(V.E). In case V=E2, it is O(E3).
 
