@@ -1,7 +1,7 @@
 # Shortest-Path-Algorithms
 
 
-# Bellman Ford's algorithm
+# Bellman Ford's Algorithm
 
 It is used to find the shortest paths from the source vertex to all other vertices in a weighted graph. It depends on the following concept: Shortest path contains at most n-1 edges, because the shortest path couldn't have a cycle.
 
@@ -18,7 +18,7 @@ Time Complexity of Bellman Ford algorithm is relatively high O(V.E). In case V=E
 
 
 
-# Dijkstra's algorithm
+# Dijkstra's Algorithm
 
 It has many variants but the most common one is to find the shortest paths from the source vertex to all other vertices in the graph.
 
